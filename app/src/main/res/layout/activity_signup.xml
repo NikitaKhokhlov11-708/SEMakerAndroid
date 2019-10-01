@@ -6,16 +6,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
@@ -62,10 +52,10 @@
                 android:id="@+id/btn_sbm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:text="Подтвердить" />
+                android:layout_margin = "8dp"
+                android:background="@drawable/button_rounded"
+                android:text="Подтвердить"
+                android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

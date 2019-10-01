@@ -138,11 +138,11 @@ class SignupActivity : MvpAppCompatActivity(), SignupView, View.OnClickListener 
 
     override fun hide() {
         linearLayout4.visibility = CoordinatorLayout.INVISIBLE
-        progressBar.visibility = CoordinatorLayout.VISIBLE
+        //progressBar.visibility = CoordinatorLayout.VISIBLE
     }
 
     override fun show() {
         linearLayout4.visibility = CoordinatorLayout.VISIBLE
-        progressBar.visibility = CoordinatorLayout.INVISIBLE
+        //progressBar.visibility = CoordinatorLayout.INVISIBLE
     }
 }

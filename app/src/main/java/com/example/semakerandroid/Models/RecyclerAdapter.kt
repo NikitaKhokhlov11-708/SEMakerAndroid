@@ -48,7 +48,7 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.EventHolder>() {
             arguments.putSerializable("event", event)
 
             val rootRef = FirebaseDatabase.getInstance().reference
-            rootRef.child("Users").child(fuser!!.uid).child("Applications")
+            rootRef.child("Users").child(fuser!!.uid)
                 .addListenerForSingleValueEvent(object :
                     ValueEventListener {
                     override fun onDataChange(dataSnapshot: DataSnapshot) {

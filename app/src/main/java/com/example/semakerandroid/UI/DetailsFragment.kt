@@ -66,6 +66,7 @@ class DetailsFragment : MvpAppCompatFragment(), DetailsView {
         val bundle = arguments
 
         event = bundle!!.getSerializable("event") as Event
+        user = bundle!!.getSerializable("user") as User
 
         context?.let {
             Glide.with(it).load(event.imageURL).into(root!!.event_image)
