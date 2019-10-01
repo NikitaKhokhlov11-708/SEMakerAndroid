@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "692064745906",
+    "firebase_url": "https://semakerandoid.firebaseio.com",
+    "project_id": "semakerandoid",
+    "storage_bucket": "semakerandoid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692064745906:android:e2a1fc0ce36a4247",
+        "android_client_info": {
+          "package_name": "com.example.semakerandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692064745906-rjtif1aq8tehih56md10bfdvu5jvt1t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.semakerandroid",
+            "certificate_hash": "e1455bc3b74f21e8c1f5f907a8e24fca15fcd95e"
+          }
+        },
+        {
+          "client_id": "692064745906-fib8vuq5los9ngcfe5s00bj4mrtdpkeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.semakerandroid",
+            "certificate_hash": "1e794bf6e573aaaf49af51b7ecd0195acdde6b2b"
+          }
+        },
+        {
+          "client_id": "692064745906-7bm0df92c6d53lbqa76p2fo9c43as0lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTPXWi7MQQ1p3-4s-xtsVHb08_cfzermI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692064745906-7bm0df92c6d53lbqa76p2fo9c43as0lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
