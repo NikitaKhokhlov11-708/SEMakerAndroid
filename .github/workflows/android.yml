@@ -1,0 +1,17 @@
+name: CI
+
+on: 
+  push:
+    branches: 
+      - master
+      - release/*
+
+jobs:
+  firebase-deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Firebase GitHub Action
+      uses: pizzafox/firebase-action@1.0.7
